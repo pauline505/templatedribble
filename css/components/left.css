@@ -1,0 +1,40 @@
+
+.left{
+	width:400px;
+	height:600px;
+	background-color:lightgrey;
+	padding:30px;
+	border-radius:15px 0px 0px 15px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.elementleft{
+	height:100%;
+}
+img.imgdribbble {
+	width:150px;
+}
+img{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.logodribbble{
+	width:150px;
+	margin:auto;
+}
+.social{
+	display: flex;
+	justify-content: space-around; 
+}
+
+.fab.fa-instagram{
+	font-size:40px;
+}
+.fab.fa-twitter{
+	font-size:40px;
+}
+.fab.fa-facebook-f{
+	font-size:40px;
+}

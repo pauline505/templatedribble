@@ -1,0 +1,37 @@
+@import url("components/left.css");
+@import url("components/right.css");
+
+
+body{
+	background-image:url("../images/fond.jpg");
+	background-position: right;
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:white;
+}
+.container{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+}
+
+
+@media screen and (max-width: 950px) {
+	.container{
+		height: auto; 
+    	flex-direction: column;
+	}
+	.left{
+		border-radius:15px 15px 0px 0px;
+	}
+	.right{
+		border-radius:0px 0px 15px 15px;
+	}
+}
